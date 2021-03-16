@@ -1,0 +1,258 @@
+ Log: 22/07/2020 03:17:30 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:31 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 415
+ Log: 22/07/2020 03:17:32 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 68
+ Log: 22/07/2020 03:17:33 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=query&meta=tokens&format=json HTTP/1.1" 200 99
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - utf-8  confidence = 0.99
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - SHIFT_JIS Japanese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - EUC-JP Japanese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - GB2312 Chinese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - EUC-KR Korean confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - CP949 Korean confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - Big5 Chinese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - EUC-TW Taiwan confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - windows-1251 Russian confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - KOI8-R Russian confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - ISO-8859-5 Russian confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - MacCyrillic Russian confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - IBM866 Russian confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - IBM855 Russian confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - ISO-8859-7 Greek confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - windows-1253 Greek confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - ISO-8859-5 Bulgairan confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - windows-1251 Bulgarian confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - TIS-620 Thai confidence = 0.10977596299408375
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - ISO-8859-9 Turkish confidence = 0.3408092603293842
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - windows-1255 Hebrew confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - windows-1255 Hebrew confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - windows-1255 Hebrew confidence = 0.0
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - utf-8  confidence = 0.99
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - SHIFT_JIS Japanese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - EUC-JP Japanese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - GB2312 Chinese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - EUC-KR Korean confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - CP949 Korean confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - Big5 Chinese confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: get_confidence Line: 100 - EUC-TW Taiwan confidence = 0.01
+ Log: 22/07/2020 03:17:33 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:34 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Academia+Real+de+Marinha+de+Lisbo&format=json&limit=50&continue=0 HTTP/1.1" 200 435
+ Log: 22/07/2020 03:17:34 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:35 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Academia+Real+de+Marinha+de+Lisbo&format=json&limit=50&continue=0 HTTP/1.1" 200 435
+ Log: 22/07/2020 03:17:35 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:36 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Col%C3%A9gio+Real+dos+Nobres%2C+Lisboa%2C&format=json&limit=50&continue=0 HTTP/1.1" 200 409
+ Log: 22/07/2020 03:17:36 PM : DEBUG: _new_conn Line: 941 - Starting new HTTPS connection (1): query.wikidata.org:443
+ Log: 22/07/2020 03:17:38 PM : DEBUG: _make_request Line: 442 - https://query.wikidata.org:443 "POST /sparql?query=%23Tool%3A+wdi_core+fastrun%0A%0A++++++++PREFIX+wd%3A+%3Chttp%3A%2F%2Fieeta-eviterbo.web.ua.pt%2Fentity%2F%3E%0A++++++++PREFIX+wdt%3A+%3Chttp%3A%2F%2Fieeta-eviterbo.web.ua.pt%2Fprop%2Fdirect%2F%3E%0A%0A++++++++SELECT+%3Fp+WHERE+%7B%0A++++++++++++%3Fp+wdt%3AP2302+wd%3AQ21502410%0A++++++++%7D%0A++++++++&format=json HTTP/1.1" 200 78
+ Log: 22/07/2020 03:17:38 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:39 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q582&format=json HTTP/1.1" 200 5422
+ Log: 22/07/2020 03:17:41 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4447
+ Log: 22/07/2020 03:17:42 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:42 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Real+Corpo+de+Engenheiros+de+Para%C3%ADb&format=json&limit=50&continue=0 HTTP/1.1" 200 456
+ Log: 22/07/2020 03:17:43 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:43 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Real+Corpo+de+Engenheiros+de+Para%C3%ADb&format=json&limit=50&continue=0 HTTP/1.1" 200 456
+ Log: 22/07/2020 03:17:43 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:44 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q583&format=json HTTP/1.1" 200 4870
+ Log: 22/07/2020 03:17:47 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 3551
+ Log: 22/07/2020 03:17:47 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:48 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Irmandade+de+S%C3%A3o+Jos%C3%A9+dos+Carpinteiro&format=json&limit=50&continue=0 HTTP/1.1" 200 477
+ Log: 22/07/2020 03:17:48 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:49 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Irmandade+de+S%C3%A3o+Jos%C3%A9+dos+Carpinteiro&format=json&limit=50&continue=0 HTTP/1.1" 200 477
+ Log: 22/07/2020 03:17:49 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:49 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Lisboa%2C+Lisboa%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 795
+ Log: 22/07/2020 03:17:50 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:50 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q584&format=json HTTP/1.1" 200 5783
+ Log: 22/07/2020 03:17:53 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4614
+ Log: 22/07/2020 03:17:53 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:54 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania-Geral+de+Mo%C3%A7ambique+e+Rios+de+Sofal&format=json&limit=50&continue=0 HTTP/1.1" 200 486
+ Log: 22/07/2020 03:17:54 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:55 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania-Geral+de+Mo%C3%A7ambique+e+Rios+de+Sofal&format=json&limit=50&continue=0 HTTP/1.1" 200 486
+ Log: 22/07/2020 03:17:55 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:56 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Mo%C3%A7ambiqu&format=json&limit=50&continue=0 HTTP/1.1" 200 340
+ Log: 22/07/2020 03:17:56 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:17:57 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q585&format=json HTTP/1.1" 200 5328
+ Log: 22/07/2020 03:17:59 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4009
+ Log: 22/07/2020 03:18:00 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:01 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Desenho+e+Debuxo+do+Port&format=json&limit=50&continue=0 HTTP/1.1" 200 432
+ Log: 22/07/2020 03:18:01 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:01 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Desenho+e+Debuxo+do+Port&format=json&limit=50&continue=0 HTTP/1.1" 200 432
+ Log: 22/07/2020 03:18:01 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:02 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Porto%2C+Porto%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 710
+ Log: 22/07/2020 03:18:02 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:03 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q586&format=json HTTP/1.1" 200 5516
+ Log: 22/07/2020 03:18:05 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4541
+ Log: 22/07/2020 03:18:06 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:07 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Associa%C3%A7%C3%A3o+dos+Engenheiros+Civis+Portuguese&format=json&limit=50&continue=0 HTTP/1.1" 200 495
+ Log: 22/07/2020 03:18:07 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:07 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Associa%C3%A7%C3%A3o+dos+Engenheiros+Civis+Portuguese&format=json&limit=50&continue=0 HTTP/1.1" 200 495
+ Log: 22/07/2020 03:18:07 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:08 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Lisboa%2C+Lisboa%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 795
+ Log: 22/07/2020 03:18:08 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:09 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q587&format=json HTTP/1.1" 200 5383
+ Log: 22/07/2020 03:18:11 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4408
+ Log: 22/07/2020 03:18:12 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:13 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Academia+Real+Militar+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 450
+ Log: 22/07/2020 03:18:13 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:14 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Academia+Real+Militar+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 450
+ Log: 22/07/2020 03:18:14 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:14 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Rio+de+Janeiro%2C+Rio+de+Janeiro%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 409
+ Log: 22/07/2020 03:18:14 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:15 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q588&format=json HTTP/1.1" 200 5625
+ Log: 22/07/2020 03:18:18 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4650
+ Log: 22/07/2020 03:18:18 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:19 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+da+Esfera+do+Col%C3%A9gio+de+Santo+Ant%C3%A3&format=json&limit=50&continue=0 HTTP/1.1" 200 483
+ Log: 22/07/2020 03:18:19 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:20 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+da+Esfera+do+Col%C3%A9gio+de+Santo+Ant%C3%A3&format=json&limit=50&continue=0 HTTP/1.1" 200 483
+ Log: 22/07/2020 03:18:20 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:21 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Mosteiro+de+Santo+Ant%C3%A3o-o-Velho%2C+Lisboa%2C&format=json&limit=50&continue=0 HTTP/1.1" 200 433
+ Log: 22/07/2020 03:18:21 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:22 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q589&format=json HTTP/1.1" 200 5472
+ Log: 22/07/2020 03:18:24 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4400
+ Log: 22/07/2020 03:18:25 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:26 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Regimento+de+Cavalaria+Auxiliar+de+Goi%C3%A1&format=json&limit=50&continue=0 HTTP/1.1" 200 468
+ Log: 22/07/2020 03:18:26 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:26 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Regimento+de+Cavalaria+Auxiliar+de+Goi%C3%A1&format=json&limit=50&continue=0 HTTP/1.1" 200 468
+ Log: 22/07/2020 03:18:26 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:27 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Goi%C3%A1s%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 349
+ Log: 22/07/2020 03:18:27 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:28 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q590&format=json HTTP/1.1" 200 4972
+ Log: 22/07/2020 03:18:31 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 3653
+ Log: 22/07/2020 03:18:31 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:32 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+do+Ter%C3%A7o+de+Artilharia+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 483
+ Log: 22/07/2020 03:18:32 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:33 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+do+Ter%C3%A7o+de+Artilharia+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 483
+ Log: 22/07/2020 03:18:33 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:33 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Rio+de+Janeiro%2C+Rio+de+Janeiro%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 409
+ Log: 22/07/2020 03:18:33 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:34 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q591&format=json HTTP/1.1" 200 5509
+ Log: 22/07/2020 03:18:37 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4534
+ Log: 22/07/2020 03:18:37 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:38 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Fortifica%C3%A7%C3%A3o+e+Arquitectura+Milita&format=json&limit=50&continue=0 HTTP/1.1" 200 492
+ Log: 22/07/2020 03:18:38 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:39 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Fortifica%C3%A7%C3%A3o+e+Arquitectura+Milita&format=json&limit=50&continue=0 HTTP/1.1" 200 492
+ Log: 22/07/2020 03:18:39 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:39 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Pa%C3%A7o+da+Ribeira%2C+Lisboa%2C&format=json&limit=50&continue=0 HTTP/1.1" 200 385
+ Log: 22/07/2020 03:18:39 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:40 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q592&format=json HTTP/1.1" 200 5542
+ Log: 22/07/2020 03:18:42 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4567
+ Log: 22/07/2020 03:18:43 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:44 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania+de+Mato+Gross&format=json&limit=50&continue=0 HTTP/1.1" 200 405
+ Log: 22/07/2020 03:18:44 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:44 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania+de+Mato+Gross&format=json&limit=50&continue=0 HTTP/1.1" 200 405
+ Log: 22/07/2020 03:18:44 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:45 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Mato+Grosso%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 352
+ Log: 22/07/2020 03:18:45 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:46 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q593&format=json HTTP/1.1" 200 5340
+ Log: 22/07/2020 03:18:48 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4365
+ Log: 22/07/2020 03:18:49 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:50 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Sociedade+Real+Mar%C3%ADtima%2C+Militar+e+Geogr%C3%A1fic&format=json&limit=50&continue=0 HTTP/1.1" 200 939
+ Log: 22/07/2020 03:18:50 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:50 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Sociedade+Real+Mar%C3%ADtima%2C+Militar+e+Geogr%C3%A1fic&format=json&limit=50&continue=0 HTTP/1.1" 200 939
+ Log: 22/07/2020 03:18:50 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:51 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Lisboa%2C+Lisboa%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 795
+ Log: 22/07/2020 03:18:51 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:52 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q594&format=json HTTP/1.1" 200 5531
+ Log: 22/07/2020 03:18:55 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4556
+ Log: 22/07/2020 03:18:55 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:56 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania+Geral+dos+A%C3%A7ore&format=json&limit=50&continue=0 HTTP/1.1" 200 426
+ Log: 22/07/2020 03:18:56 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:57 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania+Geral+dos+A%C3%A7ore&format=json&limit=50&continue=0 HTTP/1.1" 200 426
+ Log: 22/07/2020 03:18:57 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:57 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Angra+do+Hero%C3%ADsmo%2C+A%C3%A7ores%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 96
+ Log: 22/07/2020 03:18:57 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:18:58 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q595&format=json HTTP/1.1" 200 5354
+ Log: 22/07/2020 03:19:00 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4379
+ Log: 22/07/2020 03:19:01 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:02 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Instituto+Industrial+do+Port&format=json&limit=50&continue=0 HTTP/1.1" 200 420
+ Log: 22/07/2020 03:19:02 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:02 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Instituto+Industrial+do+Port&format=json&limit=50&continue=0 HTTP/1.1" 200 420
+ Log: 22/07/2020 03:19:02 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:03 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Porto%2C+Porto%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 710
+ Log: 22/07/2020 03:19:03 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:04 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q596&format=json HTTP/1.1" 200 5430
+ Log: 22/07/2020 03:19:07 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4455
+ Log: 22/07/2020 03:19:07 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:08 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Universidade+de+Coimbr&format=json&limit=50&continue=0 HTTP/1.1" 200 1069
+ Log: 22/07/2020 03:19:08 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:09 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Universidade+de+Coimbr&format=json&limit=50&continue=0 HTTP/1.1" 200 1069
+ Log: 22/07/2020 03:19:09 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:10 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Universidade+de+Coimbra%2C+Coimbra%2C&format=json&limit=50&continue=0 HTTP/1.1" 200 397
+ Log: 22/07/2020 03:19:10 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:10 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q43&format=json HTTP/1.1" 200 3460
+ Log: 22/07/2020 03:19:13 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 3752
+ Log: 22/07/2020 03:19:13 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:14 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 414
+ Log: 22/07/2020 03:19:14 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:15 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Capitania+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 414
+ Log: 22/07/2020 03:19:15 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:16 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Rio+de+Janeiro%2C+Rio+de+Janeiro%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 409
+ Log: 22/07/2020 03:19:16 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:17 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q598&format=json HTTP/1.1" 200 5280
+ Log: 22/07/2020 03:19:19 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4305
+ Log: 22/07/2020 03:19:20 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:21 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Academia+Militar+da+Cort&format=json&limit=50&continue=0 HTTP/1.1" 200 408
+ Log: 22/07/2020 03:19:21 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:21 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Academia+Militar+da+Cort&format=json&limit=50&continue=0 HTTP/1.1" 200 408
+ Log: 22/07/2020 03:19:21 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:22 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Lisboa%2C+Lisboa%2C+Portuga&format=json&limit=50&continue=0 HTTP/1.1" 200 795
+ Log: 22/07/2020 03:19:22 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:23 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q599&format=json HTTP/1.1" 200 5413
+ Log: 22/07/2020 03:19:25 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4438
+ Log: 22/07/2020 03:19:26 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:27 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Instituto+Industrial+de+Lisbo&format=json&limit=50&continue=0 HTTP/1.1" 200 748
+ Log: 22/07/2020 03:19:27 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:28 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Instituto+Industrial+de+Lisbo&format=json&limit=50&continue=0 HTTP/1.1" 200 748
+ Log: 22/07/2020 03:19:28 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:28 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Instituto+Industrial+de+Lisboa%2C+Lisboa%2C&format=json&limit=50&continue=0 HTTP/1.1" 200 415
+ Log: 22/07/2020 03:19:28 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:29 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q600&format=json HTTP/1.1" 200 5335
+ Log: 22/07/2020 03:19:32 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4360
+ Log: 22/07/2020 03:19:32 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:33 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Direc%C3%A7%C3%A3o+das+Obras+P%C3%BAblicas+de+S%C3%A3o+Tom%C3%A9+e+Pr%C3%ADncip&format=json&limit=50&continue=0 HTTP/1.1" 200 573
+ Log: 22/07/2020 03:19:33 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:34 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Direc%C3%A7%C3%A3o+das+Obras+P%C3%BAblicas+de+S%C3%A3o+Tom%C3%A9+e+Pr%C3%ADncip&format=json&limit=50&continue=0 HTTP/1.1" 200 573
+ Log: 22/07/2020 03:19:34 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:35 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=S%C3%A3o+Tom%C3%A9%2C+S%C3%A3o+Tom%C3%A9+e+Pr%C3%ADncip&format=json&limit=50&continue=0 HTTP/1.1" 200 457
+ Log: 22/07/2020 03:19:35 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:36 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q601&format=json HTTP/1.1" 200 5108
+ Log: 22/07/2020 03:19:39 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 3789
+ Log: 22/07/2020 03:19:39 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:40 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Direc%C3%A7%C3%A3o+das+Obras+P%C3%BAblicas+de+Macau+e+Timo&format=json&limit=50&continue=0 HTTP/1.1" 200 510
+ Log: 22/07/2020 03:19:40 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:41 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Direc%C3%A7%C3%A3o+das+Obras+P%C3%BAblicas+de+Macau+e+Timo&format=json&limit=50&continue=0 HTTP/1.1" 200 510
+ Log: 22/07/2020 03:19:41 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:42 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q602&format=json HTTP/1.1" 200 5320
+ Log: 22/07/2020 03:19:44 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4001
+ Log: 22/07/2020 03:19:45 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:46 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Direc%C3%A7%C3%A3o+das+Obras+P%C3%BAblicas+de+Angol&format=json&limit=50&continue=0 HTTP/1.1" 200 489
+ Log: 22/07/2020 03:19:46 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:46 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Direc%C3%A7%C3%A3o+das+Obras+P%C3%BAblicas+de+Angol&format=json&limit=50&continue=0 HTTP/1.1" 200 489
+ Log: 22/07/2020 03:19:46 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:47 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Luanda%2C+Luanda%2C+Angol&format=json&limit=50&continue=0 HTTP/1.1" 200 402
+ Log: 22/07/2020 03:19:47 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:48 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q603&format=json HTTP/1.1" 200 5437
+ Log: 22/07/2020 03:19:51 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4118
+ Log: 22/07/2020 03:19:51 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:52 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Artilharia+de+Go&format=json&limit=50&continue=0 HTTP/1.1" 200 408
+ Log: 22/07/2020 03:19:52 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:53 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Artilharia+de+Go&format=json&limit=50&continue=0 HTTP/1.1" 200 408
+ Log: 22/07/2020 03:19:53 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:53 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Goa%2C+%C3%8Dndi&format=json&limit=50&continue=0 HTTP/1.1" 200 340
+ Log: 22/07/2020 03:19:53 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:54 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q604&format=json HTTP/1.1" 200 5424
+ Log: 22/07/2020 03:19:57 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4449
+ Log: 22/07/2020 03:19:57 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:58 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+Militar+da+Bahi&format=json&limit=50&continue=0 HTTP/1.1" 200 396
+ Log: 22/07/2020 03:19:58 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:19:59 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+Militar+da+Bahi&format=json&limit=50&continue=0 HTTP/1.1" 200 396
+ Log: 22/07/2020 03:19:59 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:20:00 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Salvador%2C+Bahia%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 491
+ Log: 22/07/2020 03:20:00 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:20:01 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q605&format=json HTTP/1.1" 200 5395
+ Log: 22/07/2020 03:20:03 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4420
+ Log: 22/07/2020 03:20:04 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:20:04 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Fortifica%C3%A7%C3%A3o+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 477
+ Log: 22/07/2020 03:20:04 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:20:05 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Aula+de+Fortifica%C3%A7%C3%A3o+do+Rio+de+Janeir&format=json&limit=50&continue=0 HTTP/1.1" 200 477
+ Log: 22/07/2020 03:20:05 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:20:06 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbsearchentities&language=pt&search=Rio+de+Janeiro%2C+Rio+de+Janeiro%2C+Brasi&format=json&limit=50&continue=0 HTTP/1.1" 200 409
+ Log: 22/07/2020 03:20:06 PM : DEBUG: _new_conn Line: 230 - Starting new HTTP connection (1): ieeta-eviterbo.web.ua.pt:80
+ Log: 22/07/2020 03:20:07 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "GET /api.php?action=wbgetentities&sites=enwiki&ids=Q606&format=json HTTP/1.1" 200 5810
+ Log: 22/07/2020 03:20:09 PM : DEBUG: _make_request Line: 442 - http://ieeta-eviterbo.web.ua.pt:80 "POST /api.php HTTP/1.1" 200 4835

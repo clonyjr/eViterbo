@@ -1,0 +1,127 @@
+|nome = <big><!-- nome da pessoa --></big>  {{#statements:P34|from={{#var: entity}}}}
+|nome_completo = {{#statements:P17|from= {{#var: entity}}}}
+|nome_outras_grafias  		= {{#statements:P20|from= {{#var: entity}}}}
+|imagem               		= <!-- arquivo de imagem ex.: LuisaTodi.png -->
+|imagem_tamanho       		= <!-- tamanho fixo da imagem ex.: 200px -->
+|imagem_legenda       		= 
+|legenda              		= 
+|pai = {{#statements:P22|from= {{#var: entity}}}}
+|mãe =  {{#statements:P23|from= {{#var: entity}}}}
+|irmãos = {{#statements:P25|from= {{#var: entity}}}}
+|cônjuge =  {{#statements:P24|from= {{#var: entity}}}}
+|filhos =  {{#statements:P21|from= {{#var: entity}}}}
+|data_nascimento =  {{#statements:P2|from= {{#var: entity}}}} <!-- AJUSTAR FORMATAÇÃO DA DATA -->
+|local_nascimento = {{#property:P45|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P4}}}}
+|data_morte = {{#statements:P3|from= {{#var: entity}}}}<!-- AJUSTAR FORMATAÇÃO DA DATA -->
+|local_morte = {{#property:P45|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P5}}}}
+|local_enterramento = {{#statements:P33|from= {{#var: entity}}}}
+|religião = {{#statements:P27|from={{#var: entity}}}}
+|sexo = {{#statements:P6|from={{#var: entity}}}}
+|residência1 = {{#property:P45|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P26}}}}
+|data_inicio_residência1 =  {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P26}}}}
+|data_fim_residência1 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P26}}}}
+|residência2 = {{#property:P45|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=2|propriedaderaiz=P26}}}}
+|data_inicio_residência2 =  {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P26}}}}
+|data_fim_residência2 =  {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P26}}}}
+|residência3 = {{#property:P45|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=3|propriedaderaiz=P26}}}}
+|data_inicio_residência3 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P26}}}}
+|data_fim_residência3 =  {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P26}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P26}}}}
+<!-- Formação (Pode ir até 3)-->
+|Formação_1	= {{#property:P47|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P48}}}}
+|Instituição_de_Formação_1	= {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=1|propriedade=P12|propriedaderaiz=P48}}}}
+|local_de_formação_1 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=1|propriedade=P28|propriedaderaiz=P48}}}}
+|data_inicio_formação_1	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P48}}}}
+|data_fim_formação_1 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P48}}}}
+
+|Formação_2	= {{#property:P47|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=2|propriedaderaiz=P48}}}}
+|Instituição_de_Formação_2	= {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=2|propriedade=P12|propriedaderaiz=P48}}}}
+|local_de_formação_2 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=2|propriedade=P28|propriedaderaiz=P48}}}}
+|data_inicio_formação_2	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P48}}}}
+|data_fim_formação_2 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P48}}}}
+
+|Formação_3	=  {{#property:P47|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=2|propriedaderaiz=P48}}}}
+|Instituição_de_Formação_3	=  {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=3|propriedade=P12|propriedaderaiz=P48}}}}
+|local_de_formação_3 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=3|propriedade=P28|propriedaderaiz=P48}}}}
+|data_inicio_formação_3	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P48}}}}
+|data_fim_formação_3 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P48}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P48}}}}
+
+<!-- Posto-carreira militar (pode ir até 9)--> 
+|Posto_1	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P50}}}}
+|Arma_1		= {{#property:P53|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=1|propriedade=P52|propriedaderaiz=P50}}}}
+|data_posto_1	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P50}}}}
+|data_fim_posto_1	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P50}}}}
+
+|Posto_2	=  {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=2|propriedaderaiz=P50}}}}
+|Arma_2	=  {{#property:P53|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=2|propriedade=P52|propriedaderaiz=P50}}}}
+|data_posto_2	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P50}}}}
+|data_fim_posto_2	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P50}}}}
+
+|Posto_3	=  {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=3|propriedaderaiz=P50}}}}
+|Arma_3	=  {{#property:P53|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=3|propriedade=P52|propriedaderaiz=P50}}}}
+|data_posto_3	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P50}}}}
+|data_fim_posto_3	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P50}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P50}}}}
+
+<!-- Cargo (pode ir até 9)-->
+|Cargo_1 	=  {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P8}}}}
+|Instituição_Cargo_1	= {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=1|propriedade=P12|propriedaderaiz=P8}}}}
+|local_cargo_1 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=1|propriedade=P11|propriedaderaiz=P8}}}}
+|data_inicio_cargo_1	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P8}}}}
+|data_fim_cargo_1 =  {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P8}}}}
+
+|Cargo_2	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=2|propriedaderaiz=P8}}}}
+|Instituição_Cargo_2	= {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=2|propriedade=P12|propriedaderaiz=P8}}}}
+|local_cargo_2 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=2|propriedade=P11|propriedaderaiz=P8}}}}
+|data_inicio_cargo_2	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P8}}}}
+|data_fim_cargo_2 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P8}}}}
+
+|Cargo_3	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=3|propriedaderaiz=P8}}}}
+|Instituição_Cargo_3	= {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=3|propriedade=P12|propriedaderaiz=P8}}}}
+|local_cargo_3 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=3|propriedade=P11|propriedaderaiz=P8}}}}
+|data_inicio_cargo_3	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P8}}}}
+|data_fim_cargo_3 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P8}}}}
+
+|Cargo_4	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=4|propriedaderaiz=P8}}}}
+|Instituição_Cargo_4	= {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=4|propriedade=P12|propriedaderaiz=P8}}}}
+|local_cargo_4 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=4|propriedade=P11|propriedaderaiz=P8}}}}
+|data_inicio_cargo_4	= {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=4|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=4|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=4|propriedade=P9|propriedaderaiz=P8}}}}
+|data_fim_cargo_4 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=4|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=4|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=4|propriedade=P10|propriedaderaiz=P8}}}}
+
+|Cargo_5	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=5|propriedaderaiz=P8}}}}
+|Instituição_Cargo_5 = {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=5|propriedade=P12|propriedaderaiz=P8}}}}
+|local_cargo_5 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=5|propriedade=P11|propriedaderaiz=P8}}}}
+|data_inicio_cargo_5 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=5|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=5|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=5|propriedade=P9|propriedaderaiz=P8}}}}
+|data_fim_cargo_5 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=5|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=5|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=5|propriedade=P10|propriedaderaiz=P8}}}}
+
+|Cargo_6	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=6|propriedaderaiz=P8}}}}
+|Instituição_Cargo_6 = {{#property:P46|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=6|propriedade=P12|propriedaderaiz=P8}}}}
+|local_cargo_6 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=6|propriedade=P11|propriedaderaiz=P8}}}}
+|data_inicio_cargo_6 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=6|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=6|propriedade=P9|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=6|propriedade=P9|propriedaderaiz=P8}}}}
+|data_fim_cargo_6 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=6|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=6|propriedade=P10|propriedaderaiz=P8}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=6|propriedade=P10|propriedaderaiz=P8}}}}
+
+<!-- Actividades (Pode ir até 9)-->
+|Actividade_1	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=1|propriedaderaiz=P56}}}}
+|Local_de_Actividade_1 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=1|propriedade=P57|propriedaderaiz=P56}}}}
+|data_inicio_actividade_1 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P9|propriedaderaiz=P56}}}}
+|data_fim_actividade_1 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=1|propriedade=P10|propriedaderaiz=P56}}}}
+
+|Actividade_2	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=2|propriedaderaiz=P56}}}}
+|Local_de_Actividade_2 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=2|propriedade=P57|propriedaderaiz=P56}}}}
+|data_inicio_actividade_2 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P9|propriedaderaiz=P56}}}}
+|data_fim_actividade_2 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=2|propriedade=P10|propriedaderaiz=P56}}}}
+
+|Actividade_3	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=3|propriedaderaiz=P56}}}}
+|Local_de_Actividade_3 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=3|propriedade=P57|propriedaderaiz=P56}}}}
+|data_inicio_actividade_3 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P9|propriedaderaiz=P56}}}}
+|data_fim_actividade_3 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=3|propriedade=P10|propriedaderaiz=P56}}}}
+
+|Actividade_4	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=4|propriedaderaiz=P56}}}}
+|Local_de_Actividade_4 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=4|propriedade=P57|propriedaderaiz=P56}}}}
+|data_inicio_actividade_4 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=4|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=4|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=4|propriedade=P9|propriedaderaiz=P56}}}}
+|data_fim_actividade_4 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=4|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=4|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=4|propriedade=P10|propriedaderaiz=P56}}}}
+
+|Actividade_5	= {{#property:P13|from={{#invoke:Teste|getNomeEntidade|{{#var: entity}}|numentidade=5|propriedaderaiz=P56}}}}
+|Local_de_Actividade_5 = {{#property:P45|from={{#invoke:Teste|getInstituicao_e_Local|{{#var: entity}}|numentidade=5|propriedade=P57|propriedaderaiz=P56}}}}
+|data_inicio_actividade_5 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=5|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=5|propriedade=P9|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=5|propriedade=P9|propriedaderaiz=P56}}}}
+|data_fim_actividade_5 = {{dtext|{{#invoke:Teste|getDateQualifiersDia|{{#var: entity}}|numentidade=5|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersMes|{{#var: entity}}|numentidade=5|propriedade=P10|propriedaderaiz=P56}}|{{#invoke:Teste|getDateQualifiersAno|{{#var: entity}}|numentidade=5|propriedade=P10|propriedaderaiz=P56}}}}
+
+}}

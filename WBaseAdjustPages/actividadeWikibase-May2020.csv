@@ -1,0 +1,42 @@
+_ID,_pageName,_pageTitle,_pageNamespace,_pageID,Nome__full
+1,"Acompanhamento de obra de fortificação","Acompanhamento de obra de fortificação",0,6610,"'Acompanhamento de obra de fortificação'"
+2,Censor,Censor,0,6618,'Censor'
+3,Construtor,Construtor,0,6620,'Construtor'
+4,"Construção de instrumentos para Náutica","Construção de instrumentos para Náutica",0,6599,"'Construção de instrumentos para Náutica'"
+5,"Defesa de praça","Defesa de praça",0,6619,"'Defesa de praça'"
+6,"Desenho cartográfico","Desenho cartográfico",0,6625,"'Desenho cartográfico'"
+7,"Desenho de cartas para Náutica","Desenho de cartas para Náutica",0,6598,"'Desenho de cartas para Náutica'"
+8,"Montagem de artilharia","Montagem de artilharia",0,6714,"'Montagem de artilharia'"
+10,"Desenho de fortificação","Desenho de fortificação",0,6611,"'Desenho de fortificação'"
+11,"Edificação de infraestrutura","Edificação de infraestrutura",0,6617,"'Edificação de infraestrutura'"
+12,Empreiteiro,Empreiteiro,0,3936,'Empreiteiro'
+13,Explorador,Explorador,0,4112,'Explorador'
+14,"Inspecção de fortificação","Inspecção de fortificação",0,6603,"'Inspecção de fortificação'"
+15,"Participação em armada","Participação em armada",0,6607,"'Participação em armada'"
+16,"Tomada de praça","Tomada de praça",0,6609,"'Tomada de praça'"
+17,"Serviço militar","Serviço militar",0,6623,"'Serviço militar'"
+18,"Reparação de fortificação","Reparação de fortificação",0,6616,"'Reparação de fortificação'"
+19,"Prospecção de terreno para fortificação","Prospecção de terreno para fortificação",0,6612,"'Prospecção de terreno para fortificação'"
+20,Operário,Operário,0,4956,'Operário'
+21,"Participação em batalha","Participação em batalha",0,6608,"'Participação em batalha'"
+22,Picheleiro,Picheleiro,0,5121,'Picheleiro'
+23,Pedreiro,Pedreiro,0,5078,'Pedreiro'
+25,"Gestão de dependência em praça-forte","Gestão de dependência em praça-forte",0,6715,"' Gestão de dependência em praça-forte'"
+26,"Expedição de reconhecimento","Expedição de reconhecimento",0,6716,"'Expedição de reconhecimento'"
+27,"Observação astronómica","Observação astronómica",0,6717,"'Observação astronómica'"
+28,"Desenho hidrográfico","Desenho hidrográfico",0,6746,"'Desenho hidrográfico'"
+29,"Desenho de edificação","Desenho de edificação",0,6604,"'Desenho de edificação'"
+30,"Demarcação de fronteira","Demarcação de fronteira",0,6597,"'Demarcação de fronteira'"
+31,"Projecto de infraestruturas","Projecto de infraestruturas",0,6750,"'Projecto de infraestruturas'"
+32,"Autor de publicação","Autor de publicação",0,6753,"'Autor de publicação'"
+33,"Edificação de construção","Edificação de construção",0,6760,"'Edificação de construção'"
+34,"Desenho urbano","Desenho urbano",0,6789,"'Desenho urbano'"
+35,"Remodelação de interior","Remodelação de interior",0,6797,"'Remodelação de interior'"
+36,"Restauro de interior","Restauro de interior",0,6798,"'Restauro de interior'"
+37,"Restauro de edificação","Restauro de edificação",0,6799,"'Restauro de edificação'"
+38,"Participação em cerco","Participação em cerco",0,6815,"'Participação em cerco'"
+39,"Acompanhamento de obra","Acompanhamento de obra",0,6816,"'Acompanhamento de obra'"
+40,Cronista,Cronista,0,6823,'Cronista'
+41,Preso,Preso,0,6825,'Preso'
+42,"Serviço na corte","Serviço na corte",0,6827,"'Serviço na corte'"
+43,"Predefinição:Technetempire actividades","Technetempire actividades",10,6710,NULL
