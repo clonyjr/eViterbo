@@ -24,7 +24,7 @@ pandoc==1.0.2
 pbr==5.4.5
 ply==3.11
 PyJSG==0.10.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pymediawiki==0.6.4
 pypandoc==1.5
 pyparsing==2.4.7
