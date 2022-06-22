@@ -16,7 +16,7 @@ jsonasobj==1.2.1
 MarkupSafe==1.1.1
 mwclient==0.10.0
 mwoauth==0.3.7
-numpy==1.18.4
+numpy==1.22.0
 oauthlib==3.1.0
 openpyxl==3.0.3
 pandas==1.0.3
